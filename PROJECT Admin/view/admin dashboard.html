@@ -1,0 +1,95 @@
+<?php
+  session_start();
+  if(isset($_COOKIE['flag']))
+  {
+ 
+?>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admin Agriculture Dashbosrd</title>
+        <!-- Include CSS -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <p>Thank you for watching Admin Agriculture Dashboard </p>
+    <table border="1" width="100%">
+        <tr>
+            <td>
+                <img src="rabbi agri.jpg" alt="logo" width="550px" height="250px">
+            </td>
+            
+           <td align="right">
+                <a href="login.php"> Logout</a>
+            </td>
+        </tr>
+         
+        
+        <tr style="height:150px;">
+           
+           
+
+                
+            <td>
+                <h4>Admin Agriculture Dashboard</h4><br>
+                </br>
+                 <ul>
+                    
+                    
+                    
+                    <li>
+                        <a href="manage attendence.php">manage attendence</a>
+                    </li>
+                    <li>
+                        <a href="payable salary.php">payable salary</a>
+                    </li>
+                    <li>
+                        <a href="admin creat.php">admin creat</a>
+                    </li>
+                    <li>
+                        <a href="admin panel.php">admin panel</a>
+                    </li>
+                    <li>
+                        <a href="admin article.php">admin article</a>
+                    </li>
+                  
+                    <li>
+                        <a href="admindonate.php"> admindonate</a>
+                    </li>
+                    <li>
+                        <a href="admin help.php">admin help</a>
+                    </li>
+                    <li>
+                        <a href="adminweather.php">adminweather</a>
+                    </li>
+                    <li>
+                        <a href="admin qna.php">admin qna</a>
+                    </li>
+                    <li>
+                        <a href="../controller/gallery/admin show gallery.php">admin show gallery</a>
+                    </li>
+                    <li>
+                        <a href="admin accVerification.php">admin accVerification.php</a>
+                    </li>
+                   
+                    <li>
+                        <a href="imageUpload.html">imageUpload.html</a>
+                    </li
+                    
+               
+            <td colspan="2" align="center">
+                19-39444-1@student.aiub.edu
+            </td>
+        </tr>
+        </form>         
+    </table>
+</body>
+</html>
+<?php
+  }
+  else{
+      header('location: login.php');
+  }
+?>
