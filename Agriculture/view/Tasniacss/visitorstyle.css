@@ -1,0 +1,58 @@
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+html{
+	height:100%;
+}
+body{
+font-family: verdana;
+min-height:100vh;
+background-color:#B0E0E6;
+
+	
+}
+header,footer{
+	position: absoulute;
+	background-color:#00BFFF;
+	width:100%;
+	color:black;
+}
+header{
+	height:10vh;
+}
+
+footer{
+	position:fixed;
+	width: 100%;
+	height: 10vh;
+	display:flex;
+	justify-content:center;
+	bottom:0;
+	
+	
+}
+footer p{
+	position: absolute;
+	left:45%
+	
+	
+}
+.nav{
+	position: absolute;
+	width:100%;
+}
+.nav a{
+	position: relative;
+	left:80%;
+	top:20px;
+	colour:black;
+	text-decoration:none;
+	margin-right:20px;
+	
+}
+
+	
