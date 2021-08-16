@@ -35,9 +35,14 @@ session_start();
 					   }
 					   if($user_data['type'] === 'admin'){
 						$_SESSION['user_id'] = $user_data['user_id'];
-						header("Location: admin-dashboard.html");
+						header("Location: admin dashboard.html");
+						die;
+					   }else{
+					   	$_SESSION['user_id'] = $user_data['user_id'];
+						header("Location: ../findex.php");
 						die;
 					   }
+
 					}
 				}
 			}
