@@ -5,7 +5,7 @@
 </head>
 <body>
 	<h3>Signup | Leaf</h3>
-<div style="background: limegreen;">
+<div style="background: lightblue;">
 	<form method="post" action="signupCheck.php">
 		<fieldset>
 			<legend>Signup</legend>

@@ -41,9 +41,7 @@ session_start();
                     <li>
                         <a href="EditProfile.php">Edit Profile</a>
                     </li>
-                    <li>
-                        <a href="ProfilePic.php">Change Profile Picture</a>
-                    </li>
+                    
                     <li>
                         <a href="article.php">Articles</a>
                     </li>

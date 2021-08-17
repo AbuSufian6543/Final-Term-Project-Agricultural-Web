@@ -134,7 +134,7 @@ session_start();
 			</td>
             <td align="center">
                 <h3>Edit Profile</h3>
-<div style="background: limegreen;">
+<div style="background: lightblue;">
     <form method="post" action="">
         <fieldset>
             <legend>Edit profile</legend>

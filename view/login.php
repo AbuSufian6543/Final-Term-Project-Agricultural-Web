@@ -65,9 +65,9 @@ session_start();
 
 
 		<img src="Companylogo.png" height="100px" width="200px"><br>
-		<a href="signup.php">Signin</a><br>
+		<a href="signup.php">Signin</a>|<a href="../index_home.html">Home</a><br>
 		<h3>Login Page</h3>
-	<div style="background: limegreen;">
+	<div style="background: lightblue;">
 		<form method="post">
 			<fieldset>
 				<legend>Login</legend>
