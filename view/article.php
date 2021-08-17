@@ -45,7 +45,7 @@
                         <a href="home.php">Dashboard</a>
                     </li>
                     <li>
-                        <a href="viewProfile.php">View Profile</a>
+                        <a href="viewProfile.php">View Profile </a>
                     </li>
                     <li>
                         <a href="EditProfile.php">Edit Profile</a>
