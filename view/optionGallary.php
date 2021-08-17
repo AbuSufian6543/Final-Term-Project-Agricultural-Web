@@ -2,6 +2,7 @@
 
 <head>
 	<title> Gallery | Leaf </title>
+    <link rel="stylesheet" href="expert style.css">
 </head>
 
 <body>
@@ -19,6 +20,7 @@
 		<tr style="height:150px;">
 			<td>
 				<h4>Account</h4><br>
+                <div id="box1">
                 <ul>
                     <li>
                         <a href="home.php">Dashboard</a>
@@ -83,17 +85,17 @@
                     <li>
                         <a href="accVerification.php">Account Verification</a>
                     </li>
-                    <li>
-                        <a href="deleteAccount.php">Delete Account</a>
-                    </li>
+                   
                     <li>
                         <a href="login.php">Logout</a>
                     </li>
                 </ul>
+            </div>
 			</td>
             <td align="center"> 
-                <a href="../controller/assets/showGallary.php">View Gallery</a> |
+                <div id="box1"><a href="../controller/assets/showGallary.php">View Gallery</a> |
                 <a href="gallary.php">Upload Image</a>
+            </div>
             </td>
 		</tr>
 		

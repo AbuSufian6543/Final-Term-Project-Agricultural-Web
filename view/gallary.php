@@ -2,6 +2,7 @@
 
 <head>
 	<title> Gallery | Leaf </title>
+    <link rel="stylesheet" href="expert style.css">
 </head>
 
 <body>
@@ -19,6 +20,7 @@
 		<tr style="height:150px;">
 			<td>
 				<h4>Account</h4><br>
+                <div id="box1">
                 <ul>
                     <li>
                         <a href="home.php">Dashboard</a>
@@ -87,8 +89,10 @@
                         <a href="login.php">Logout</a>
                     </li>
                 </ul>
+            </div>
 			</td>
             <td align="center"> <form method="POST" action="../controller/gallaryCheck.php" enctype="multipart/form-data">
+                <div id="box1">
             <table border="1">
                 <tr>
                     <td>Image: </td>
@@ -103,6 +107,7 @@
                     </td>
                 </tr>
             </table>
+        </div>
         </form>
             </td>
 		</tr>

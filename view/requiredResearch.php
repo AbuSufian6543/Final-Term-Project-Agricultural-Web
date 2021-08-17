@@ -7,6 +7,7 @@
 <head>
     <meta charset="utf-8">
     <title>Research List | Leaf</title>
+    <link rel="stylesheet" href="expert style.css">
 </head>
 <body>
     <h1 align="center">Insert research</h1>
@@ -22,6 +23,7 @@
 
       <hr>
       <h3>Research List</h3>
+      <div id="box1">
       <table border="1">
         <tr>
         <th>Research No</th>
@@ -50,6 +52,7 @@
                  }
              ?>
       </table>
+  </div>
 </body>
 </html>
 <?php

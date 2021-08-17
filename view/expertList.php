@@ -2,6 +2,7 @@
 
 <head>
     <title> Expert List | Leaf </title>
+    <link rel="stylesheet" href="expert style.css">
 </head>
 
 <body>
@@ -19,6 +20,7 @@
         <tr style="height:150px;">
             <td>
                 <h4>Account</h4><br>
+                <div id="box1">
                 <ul>
                     <li>
                         <a href="home.php">Dashboard</a>
@@ -87,9 +89,11 @@
                         <a href="login.php">Logout</a>
                     </li>
                 </ul>
+            </div>
             </td>
             <td align="center">
                 <h1>Expert List:</h1>
+                <div id="box1">
                 <table border="1">
                 <tr>
                 <th>Expert Id</th>
@@ -99,6 +103,7 @@
  
                 <tbody id="data"></tbody>
                 </table>
+            </div>
  
                 <script>
                 var ajax = new XMLHttpRequest();

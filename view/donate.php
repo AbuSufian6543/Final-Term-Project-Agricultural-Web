@@ -2,6 +2,7 @@
 
 <head>
 	<title> Donate | Leaf </title>
+    <link rel="stylesheet" href="expert style.css">
 </head>
 
 <body>
@@ -20,6 +21,7 @@
 		<tr style="height:150px;">
 			<td>
 				<h4>Account</h4><br>
+                <div id="box1">
                 <ul>
                     <li>
                         <a href="home.php">Dashboard</a>
@@ -88,12 +90,14 @@
                         <a href="login.php">Logout</a>
                     </li>
                 </ul>
+            </div>
 			</td>
             <td>
                 <h1>Donate Here:</h1>
-                
+
+                <div id="box1"> 
                 <table border="1">
-                   
+                  
                 <table>
                 <tr>
                     <td>Name</td>
@@ -115,11 +119,14 @@
                     <td><input type="submit" name="submit" value="send"></td>
                 </tr>
             </table>
+
             
                 </table>
+
                     </td>
                 </tr>
             </table>
+        </div>
         </form>
             </td>
 		</tr>

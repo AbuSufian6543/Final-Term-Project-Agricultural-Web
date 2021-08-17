@@ -42,7 +42,7 @@ session_start();
 <body>
     <style type="text/css">
     #box1{
-        background-color: limegreen;
+        background-color: lightblue;
         margin: auto;
         border: 2px solid;
     }

@@ -2,13 +2,14 @@
 
 <head>
 	<title> Contact Us | Leaf </title>
+    <link rel="stylesheet" href="expert style.css">
 </head>
 
 <body>
 	<table border="1" width="100%">
 		<tr>
 			<td>
-				<img src="imdad Companylogo.png" alt="logo" width="100px" height="50px">
+				<img src="Companylogo.png" alt="logo" width="100px" height="50px">
 			</td>
 			
 			<td align="right">
@@ -19,6 +20,7 @@
 		<tr style="height:150px;">
 			<td>
 				<h4>Account</h4><br>
+                <div id="box1">
                 <ul>
                     <li>
                         <a href="home.php">Dashboard</a>
@@ -29,9 +31,7 @@
                     <li>
                         <a href="EditProfile.php">Edit Profile</a>
                     </li>
-                    <li>
-                        <a href="ProfilePic.php">Change Profile Picture</a>
-                    </li>
+                    
                     <li>
                         <a href="article.php">Articles</a>
                     </li>
@@ -90,9 +90,11 @@
                         <a href="login.php">Logout</a>
                     </li>
                 </ul>
+            </div>
 			</td>
             <td> 
                 <h4>Contact on: </h4><br>
+                <div id="box1">
                 <ul>
                     <li>
                         Phone: 02********, 02*********
@@ -106,7 +108,8 @@
                     <li>
                         Call: *437#
                     </li>
-                </ul>       
+                </ul>
+                </div>       
             </td>
 		</tr>
 		

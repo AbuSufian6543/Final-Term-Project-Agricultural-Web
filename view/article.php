@@ -5,6 +5,24 @@
 </head>
 
 <body>
+    <style type="text/css">
+
+    
+    #box{
+
+        background-color: lightblue;
+        margin: auto;
+        border: 2px solid;
+        width: 28px;
+        height: 1px;
+        padding: 20px;
+    }
+    #box1{
+        background-color: lightblue;
+        margin: auto;
+        border: 2px solid;
+    }
+    </style>
     
       <table border="1" width="100%">
 	  <form method="post" action="../controller/articleCheck.php">
@@ -21,6 +39,7 @@
 		<tr style="height:150px;">
 			<td>
 				<h4>Account</h4><br>
+                <div id="box1">
                 <ul>
                     <li>
                         <a href="home.php">Dashboard</a>
@@ -31,9 +50,7 @@
                     <li>
                         <a href="EditProfile.php">Edit Profile</a>
                     </li>
-                    <li>
-                        <a href="ProfilePic.php">Change Profile Picture</a>
-                    </li>
+                    
                     <li>
                         <a href="article.php">Articles</a>
                     </li>
@@ -92,14 +109,17 @@
                         <a href="login.php">Logout</a>
                     </li>
                 </ul>
+            </div>
 			</td>
             <td> 
+                <div id="box1">
             	<label>Headline: <br><textarea cols="40" rows="2" name="headline"></textarea><br></label>
 	            <label>Your Article  : <br><textarea cols="70" rows="5" name="article"></textarea><br></label>
 	            <input type="submit" name="post" value="Post">
                 <br>
                 <br>
-                <a href="../controller/articleCheck.php">View your previous articles</a>
+            </div>
+                <div id="box1"><a href="../controller/articleCheck.php">View your previous articles</a></div>
             
             </td>
 		</tr>

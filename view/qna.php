@@ -2,6 +2,7 @@
 
 <head>
 	<title> QnA | Leaf </title>
+    <link rel="stylesheet" href="expert style.css">
 </head>
 
 <body>
@@ -20,6 +21,7 @@
 		<tr style="height:150px;">
 			<td>
 				<h4>Account</h4><br>
+                <div id="box1">
                 <ul>
                     <li>
                         <a href="home.php">Dashboard</a>
@@ -30,9 +32,7 @@
                     <li>
                         <a href="EditProfile.php">Edit Profile</a>
                     </li>
-                    <li>
-                        <a href="ProfilePic.php">Change Profile Picture</a>
-                    </li>
+                    
                     <li>
                         <a href="article.php">Articles</a>
                     </li>
@@ -87,21 +87,22 @@
                     <li>
                         <a href="accVerification.php">Account Verification</a>
                     </li>
-                    <li>
-                        <a href="deleteAccount.php">Delete Account</a>
-                    </li>
+                   
                     <li>
                         <a href="login.php">Logout</a>
                     </li>
                 </ul>
+            </div>
 			</td>
             <td> 
+                <div id="box1">
             	<label>Question: <br><textarea cols="40" rows="2" name="question"></textarea><br></label>
 	            <label>Answer  : <br><textarea cols="70" rows="10" name="answer"></textarea><br></label>
 	            <input type="submit" name="post" value="Post">
                 <br>
                 <br>
-                <a href="../controller/qnaCheck.php">View your privious uploaded QnA</a>
+            </div>
+             <div id="box1">   <a href="../controller/qnaCheck.php">View your privious uploaded QnA</a></div>
             </td>
 		</tr>
 		

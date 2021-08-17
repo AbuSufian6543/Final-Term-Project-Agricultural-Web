@@ -16,7 +16,7 @@ session_start();
     <style type="text/css">
         #box{
 
-        background-color: limegreen;
+        background-color: lightblue;
         margin: auto;
         width: 300px;
         padding: 20px;

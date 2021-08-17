@@ -2,6 +2,7 @@
 
 <head>
 	<title> Events | Leaf </title>
+    <link rel="stylesheet" href="expert style.css">
 </head>
 
 <body>
@@ -20,6 +21,7 @@
 		<tr style="height:150px;">
 			<td>
 				<h4>Account</h4><br>
+                <div id="box1">
                 <ul>
                     <li>
                         <a href="home.php">Dashboard</a>
@@ -88,14 +90,17 @@
                         <a href="login.php">Logout</a>
                     </li>
                 </ul>
+            </div>
 			</td>
             <td> 
+                <div id="box1">
                 <label>Date: <br><input type="date" name="date"><br></label>
                 <label>Event  : <br><textarea cols="70" rows="10" name="eventname"></textarea><br></label>
                 <input type="submit" name="submit" value="Submit">
                 <br>
                 <br>
-                <a href="../controller/eventCheck.php">View your events</a>
+            </div>
+             <div id="box1">   <a href="../controller/eventCheck.php">View your events</a> </div>
             </td>
 		</tr>
 		

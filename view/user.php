@@ -7,6 +7,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Course List | Leaf</title>
+    <link rel="stylesheet" href="expert style.css">
 </head>
 <body>
     <h1 align="center">Create Course</h1>
@@ -22,8 +23,10 @@
 
       <hr>
       <h3>Course List</h3>
+      <div id="box1">
       <table border="1">
       	<tr>
+            
       	<th>Course Id</th>
       	<th>Course Name</th>
             </tr>
@@ -49,7 +52,9 @@
                         }
                  }
              ?>
+
       </table>
+  </div>
 </body>
 </html>
 <?php

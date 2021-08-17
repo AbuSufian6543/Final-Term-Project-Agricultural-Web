@@ -2,6 +2,7 @@
 
 <head>
 	<title> Course List | Leaf </title>
+    <link rel="stylesheet" href="expert style.css">
 </head>
 
 <body>
@@ -19,6 +20,7 @@
 		<tr style="height:150px;">
 			<td>
 				<h4>Account</h4><br>
+                <div id="box1">
                 <ul>
                     <li>
                         <a href="home.php">Dashboard</a>
@@ -29,9 +31,7 @@
                     <li>
                         <a href="EditProfile.php">Edit Profile</a>
                     </li>
-                    <li>
-                        <a href="ProfilePic.php">Change Profile Picture</a>
-                    </li>
+                    
                     <li>
                         <a href="article.php">Articles</a>
                     </li>
@@ -86,24 +86,27 @@
                     <li>
                         <a href="accVerification.php">Account Verification</a>
                     </li>
-                    <li>
-                        <a href="deleteAccount.php">Delete Account</a>
-                    </li>
+                    
                     <li>
                         <a href="login.php">Logout</a>
                     </li>
                 </ul>
+            </div>
 			</td>
             <td align="center">
+                
                 <h1>Course List:</h1>
+                <div id="box1">
                 <table border="1">
                 <tr>
                 <th>Course Id</th>
                 <th>Course Name</th>
                 </tr>
+
  
                 <tbody id="data"></tbody>
                 </table>
+            </div>
  
                 <script>
                 var ajax = new XMLHttpRequest();
@@ -132,7 +135,7 @@
         };
          </script>
                 <br>
-                 <a href="user.php">Create New Course</a>
+                 <div id="box1"><a href="user.php">Create New Course</a></div>
             </td>
 		</tr>
 		

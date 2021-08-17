@@ -2,6 +2,7 @@
 
 <head>
     <title> Account Verification | Leaf </title>
+    <link rel="stylesheet" href="expert style.css">
 </head>
 
 <body>
@@ -20,6 +21,7 @@
         <tr style="height:150px;">
             <td>
                 <h4>Account</h4><br>
+                <div id="box1">
                 <ul>
                     <li>
                         <a href="home.php">Dashboard</a>
@@ -30,9 +32,7 @@
                     <li>
                         <a href="EditProfile.php">Edit Profile</a>
                     </li>
-                    <li>
-                        <a href="ProfilePic.php">Change Profile Picture</a>
-                    </li>
+                    
                     <li>
                         <a href="article.php">Articles</a>
                     </li>
@@ -87,19 +87,18 @@
                     <li>
                         <a href="accVerification.php">Account Verification</a>
                     </li>
-                    <li>
-                        <a href="deleteAccount.php">Delete Account</a>
-                    </li>
+                    
                     <li>
                         <a href="login.php">Logout</a>
                     </li>
                 </ul>
+            </div>
             </td>
             <td> 
                 <h3>Account verification</h3>
 
        
-            
+                <div id="box1">
                 <table>
                     <tr>
                         <p>Enter the verification code which has been given in your e-mail account. Please, wait for few seconds for receiving. If you will not get the email, go back and try again.</p>
@@ -111,7 +110,7 @@
                         <td><input type="submit" name="submit" value="Submit"></td>
                     </tr>
                 </table>
-            
+                </div>
        
             </td>
         </tr>

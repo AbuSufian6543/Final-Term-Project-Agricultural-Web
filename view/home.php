@@ -11,15 +11,20 @@ session_start();
 
 <head>
     <title> Home | Leaf </title>
+
 </head>
 
 <body>
-      
+    
+
+        
+              
     <style type="text/css">
+
     
     #box{
 
-        background-color: limegreen;
+        background-color: lightblue;
         margin: auto;
         border: 2px solid;
         width: 600px;
@@ -27,7 +32,7 @@ session_start();
         padding: 20px;
     }
     #box1{
-        background-color: limegreen;
+        background-color: lightblue;
         margin: auto;
         border: 2px solid;
     }
@@ -113,9 +118,7 @@ session_start();
                     <li>
                         <a href="accVerification.php">Account Verification</a>
                     </li>
-                    <li>
-                        <a href="deleteAccount.php">Delete Account</a>
-                    </li>
+                    
                     <li>
                         <a href="login.php">Logout</a>
                     </li>
